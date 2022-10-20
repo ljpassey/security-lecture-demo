@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  height: 80px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  color: orange;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 700px;
+  min-height: 350px;
+  position: relative;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-evenly; 
+  align-items: center;
+  margin: 30px;
+}
+
+button {
+  background-color: white;
+  width: 90px;
+  height: 30px;
+  font-size: 24px;
+  color: #232323;
+  border: none;
+  margin: 5px;
+}
+
+input[type='email'] {
+  width: 85%;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #232323;
+  color: #232323;
+  background-color: white;
+}
+
+input[type='password'] {
+  width: 85%;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #232323;
+  color: #232323;
+  background-color: white;
+}
+
+.destiny-intro {
+  margin: 30px;
+}
+
+.destiny {
+  margin: 30px;
+  font-size: 3em;
+  color: purple;
+}
+
+#login-form {
+  background-color: yellowgreen;
+}
+
+#signup-form {
+  background-color: red;
+}
